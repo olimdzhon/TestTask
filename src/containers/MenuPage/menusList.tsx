@@ -14,12 +14,12 @@ const menuStateSelector = createSelector(makeSelectMenu, menu => ({
 }));
 
 function MenusList() {
-  const {menu} = useSelector(menuStateSelector);
-  if (!menu) return <></>;
-
   const [stateItems, setStateItems] = useState<{item: Item; count: number}[]>(
     [],
   );
+
+  const {menu} = useSelector(menuStateSelector);
+  if (!menu) return <></>;
 
   const onAddItem = (item: Item) => {
     let updateItems = [...stateItems];
