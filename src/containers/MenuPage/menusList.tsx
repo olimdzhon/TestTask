@@ -68,6 +68,7 @@ function MenusList() {
               fontWeight: '500',
               fontSize: 21,
               lineHeight: 28,
+              color: '#000000',
             }}>
             {category.name}
           </Text>
@@ -96,6 +97,7 @@ function MenusList() {
                       fontWeight: '500',
                       fontSize: 16,
                       lineHeight: 21,
+                      color: '#000000',
                     }}>
                     {item.name}
                   </Text>
@@ -106,6 +108,7 @@ function MenusList() {
                       fontSize: 13,
                       lineHeight: 18,
                       marginTop: 8,
+                      color: '#666666',
                     }}>
                     {item.description}
                   </Text>
@@ -138,6 +141,7 @@ function MenusList() {
                     fontSize: 16,
                     lineHeight: 21,
                     alignItems: 'center',
+                    color: '#000000',
                   }}>
                   €{item.price}
                 </Text>
@@ -176,6 +180,7 @@ function MenusList() {
                         fontWeight: '400',
                         fontSize: 13,
                         lineHeight: 18,
+                        color: '#000000',
                       }}>
                       {stateItems.find(i => i.item === item)
                         ? stateItems.find(i => i.item === item)?.count

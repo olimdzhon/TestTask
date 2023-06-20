@@ -72,6 +72,7 @@ function RestaurantsList() {
                   fontSize: 16,
                   lineHeight: 24,
                   marginLeft: 8,
+                  color: '#000000',
                 }}>
                 {restaurant.name}
               </Text>
@@ -82,6 +83,7 @@ function RestaurantsList() {
                 fontWeight: '400',
                 fontSize: 13,
                 lineHeight: 18,
+                color: '#666666',
               }}>
               {restaurant.address}
             </Text>

@@ -53,6 +53,7 @@ export function MenuPage() {
             fontWeight: '500',
             fontSize: 28,
             lineHeight: 36,
+            color: '#000000',
           }}>
           {restaurant.name}
         </Text>
@@ -83,6 +84,7 @@ export function MenuPage() {
               fontSize: 16,
               lineHeight: 24,
               marginLeft: 8,
+              color: '#000000',
             }}>
             Collect from
           </Text>

@@ -49,6 +49,7 @@ export function RestaurantPage() {
             fontWeight: '500',
             fontSize: 28,
             lineHeight: 36,
+            color: '#000000',
           }}>
           Collect from
         </Text>
